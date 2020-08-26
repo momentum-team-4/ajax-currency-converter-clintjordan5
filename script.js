@@ -34,3 +34,5 @@ const currencies = [
   'MYR'
 ]
 
+fetch ("https://api.exchangeratesapi.io/latest?base=USD")
+function 
