@@ -35,4 +35,10 @@ const currencies = [
 ]
 
 fetch ("https://api.exchangeratesapi.io/latest?base=USD")
-function 
+.then(response => response.json())
+.then(data => console.log(data));
+// working on fetch coding from MDN article. linked API from exchange rate.
+
+submit.addEventListener ("click", function () {
+// will need an event listener for the convert button
+})

@@ -7,19 +7,35 @@
   <link rel="stylesheet" href="style.css">
   <script src="script.js" async></script>
 </head>
+
 <body>
+
 <h1>Currency Converter</h1>
 
-<div id="currency-buttons">
- Convert From 
- <button class="dropdown-1">Currency1</button> 
- To
- <button class="dropdown-2">Currency2</button>
- <br>
- <div id="output" class="display output">Output</div>
- <!-- this line is a spacesaver for function -->
- =
- <div id="converted-unit">Converted Unit</div>
+<div id="currency-layout"> 
+<!-- this is the id for the whole layout -->
+
+
+<div class="input-field" id="currency1">
+<br>Convert From   
+<label for="currency1">Currency1</label>
+<!--using div class input field for conversion text -->
+
+<!-- <button class="dropdown-1">Currency1</button>  -->
+<!-- <button class="dropdown-2">Currency2</button>  -->
+<!-- originally wrote these as buttons for formatting but need it to be an input field -->
+
+<br>To
+<div class="input-field" id="currency2">
+<label for="currency2">Currency2</label>
+<br>
+
+<div id="output" class="display output">Output</div>
+<!-- this line is a spacesaver for function -->
+
+=
+
+<div id="converted-unit">Converted Unit</div>
 <br>
  <button class="convert">Convert!</button>
 
