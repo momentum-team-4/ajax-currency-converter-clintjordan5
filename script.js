@@ -33,12 +33,17 @@ const currencies = [
   'KRW',
   'MYR'
 ]
+const convert = document.querySelector("convert")
+convert.addEventListener ("click", function () {
+})
 
-fetch ("https://api.exchangeratesapi.io/latest?base=USD")
+// do i need query selector or element by ID?
+
+
+
+
+fetch ("https://api.exchangeratesapi.io/latest?base=")
 .then(response => response.json())
 .then(data => console.log(data));
-// working on fetch coding from MDN article. linked API from exchange rate.
+// fixed URL as it was starting at USD
 
-submit.addEventListener ("click", function () {
-// will need an event listener for the convert button
-})

@@ -4,14 +4,22 @@
   padding: 0;
 }
 
-.currency-layout {
+.container {
   font-family: sans-serif;
   max-width: 40rem;
   padding: 1.5rem;
   margin: 0 auto;
-  background-color: pink;
+  background-color: magenta;
 }
+
+.button {
+  color: orange;
+  display: block;
+  max-width: 100px;
+  } *
 /* might not be the most effective method but adding a color to see what parts of code to move */
+
+/* all css below this line is old before editing html, will fix tags */
 
 .input-field {
   width: 100%;
@@ -40,8 +48,3 @@ display: block;
 max-width: 50px;
 }
 
-#converted-unit {
-  background-color: orange;
-  display: block;
-  max-width: 100px;
-  }
